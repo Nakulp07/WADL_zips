@@ -14,6 +14,8 @@ ng version
 
 ng new myapp
 
+res.setHeader('Access-Control-Allow-Origin', '*');
+
 cd myapp
 
 ng serve
