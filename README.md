@@ -14,8 +14,6 @@ ng version
 
 ng new myapp
 
-res.setHeader('Access-Control-Allow-Origin', '*');
-
 cd myapp
 
 ng serve
@@ -23,3 +21,8 @@ ng serve
 
 
 mongodb://127.0.0.1:27017/art
+
+
+res.setHeader('Access-Control-Allow-Origin', '*');
+
+fetch('http://localhost:3000/artGallery/getArts')
